@@ -1,0 +1,567 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: normal !important;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body, html{
+    width: 100%;
+    height: 100vh;
+    line-height: normal;
+}
+
+
+i{
+    background-color: white;
+}
+*:focus { outline: none; }
+@font-face {
+    font-family:'f1';
+    src: url('../fonts/f1.woff') format('woff');
+}
+@font-face {
+    font-family:'f2';
+    src: url('../fonts/f2.woff') format('woff');
+}
+
+.logo_header{
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+.alinearheader{
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-decoration: none;
+}
+.nav_text{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    background-color: #140a25 !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+.nav_text:hover{
+    color: yellow;
+    background-color: #2d1536 !important;
+}
+.linea{
+    color: white;
+    transform: rotate(89deg);
+    width: 18% !important;
+}
+body{
+    background: linear-gradient(#ba5495, #2d1536);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: normal !important;
+    }
+    .content{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo{
+        height: 208px;
+      
+    }
+    .alineardialog{
+margin:0px;
+    }
+    dialog[open] {
+        position: fixed;
+        width: 50%;
+        max-width: 750px;
+        background-color: #140A26;
+        color: white;
+        text-align: center;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-top: auto;
+        border-color: #140a26;
+        border-radius: 37px;
+    
+    }
+
+    dialog::backdrop {
+        background-color:#000000;
+        opacity: 50%;
+    }
+    .bienvenida{
+        text-align: center;
+        height: 211px;
+    }
+    .welcome{
+color: white;
+font-family:'f1';
+font-size: 100pt;
+    }
+    .subwelcome{
+        color: white;
+        font-family: 'Caveat', cursive;
+
+    }
+    .primertexto{
+        color: white;
+        font-family: 'f2';
+        text-align: center;
+        font-size: 30pt !important;
+    }
+    .alinear{
+        align-items: center;
+    }
+    .ingresarcodigo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .btnmayordeedad{
+        background-color: red;
+        color: white;
+        border-radius: 9px;
+        border-style: none;
+        font-size: 19pt;
+        padding: 6px;
+        
+    }
+    .btnmayordeedad:hover{
+        background-color: #ba5495;
+    }
+    .btnsalir{
+        padding: 9px;
+        border-style: none;
+        width: 100%;
+    }
+  .advertencia{
+      background-color: red;
+  }
+  .subadvertencia{
+    text-align: justify;
+      color: white;
+  }
+  .txtingr{
+      background-color: rgba(34, 7, 44, 0.645);
+      padding: 17px;
+      text-align: justify;
+  }
+  .formcontact{
+    display: flex;
+    background-color: #140A26;
+    padding: 22px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 22px;
+  }
+  .logo_header_mobile{
+    display: none;
+}
+.label_btn_menu{
+    display: none;
+}
+#btn_menu{
+    display: none;
+}
+.corazon_gif{
+    width: 70%;
+}
+.video{
+    width:100%;
+}
+/*contactenos*/
+.contactenos{
+    display: flex;
+    justify-content: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.formcontact{
+    background-color: #140A26;
+    padding: 22px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact_txt{
+    text-align: center;
+}
+.contact_btn{
+    width: 100%;
+    margin-top: 2px;
+    
+}
+.contact_btn:hover{
+background-color: #ba5495;
+}
+.contact_btn_onclick{
+    background-color: aqua;
+}
+.logo_mobile{
+    display: none;
+}
+
+.far{
+    padding: 15px;
+    box-sizing: content-box;
+}
+
+
+.inputs{
+    display: flex;
+  
+}
+.input_contactenos{
+    width: 100%;
+}
+
+.formulario_contactos{
+    width: 50% !important;
+    
+}
+
+/*Terminos y condiciones*/
+.terminos_box{
+    background-color: white;
+    text-align: justify;
+}
+.hr_terminos{
+margin-left: auto;
+margin-right: auto;
+width: 85% !important;
+}
+.title_terminos{
+    text-align: center;
+}
+.container_terminos{
+    height: 50%;
+	width: 200px;
+	border: 1px solid #ddd;
+    overflow-y: scroll;
+    overflow-x: none;
+    background-color: white;
+}
+.logo_terminos_pc{
+    width: 30%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo_terminos_mobile{
+    display: none;
+}
+.logo_header_mobile{
+    display: none;
+}
+.bienvenida_2{
+    display: none;
+}
+.atencion{
+    font-size:19pt;
+}
+.menu_mobile_border{
+    display: none;
+}
+.nav_pc{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    text-decoration: none;
+    line-height: 54px;
+}
+
+ @media (max-width: 575.98px) {
+
+
+
+    dialog[open] {
+        position: fixed;
+        width: 90%;
+        background-color: #140A26;
+        color: white;
+        text-align: center;
+        border-radius: 22px;
+        border: 2px solid #b55191;
+        
+        
+    
+    }
+    hr{
+        display: none;
+    }
+    .icon_menu{
+        font-weight: 900;
+    font-size: 33pt;
+    background: none;
+    color: white;
+    }
+    .video{
+        width: 62%;
+    }
+    .nav_pc{
+        display: none;
+    }
+    .menu_mobile_border{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #b55191;
+        overflow-y: scroll;
+        border-radius: 45px;
+        padding: 12px;
+
+        
+    }
+    .bienvenida{
+        display: none;
+    }
+    .bienvenida_2{
+        display: block;
+        padding: 10px;
+    }
+    .welcome{
+        color: white;
+        font-family:'f1';
+        font-size: 28pt;
+        line-height:122px;
+            }
+    .logo{
+        height: auto;
+    width: 42%;
+    
+    }
+    .video{
+        max-width: 100%;
+        height: 200px;
+    }
+    .logo_modal{
+        width: 48%;
+        height: auto;
+    }
+    .video{
+        width: 90%;
+    
+    }
+    .btn_salir{
+
+        margin: 12px;
+    }
+    .logo_header{
+        margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    display: flex;
+    }
+     .bienvenida{
+        text-align: center;
+        height: 100px;
+    }
+    .primertexto{
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 20pt !important;
+    }
+    .nav{
+        position: absolute;
+        flex-direction: column;
+        transition: all 0.5s;
+        background-color: #140a25;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        opacity: 0%;
+        height: 92%;
+        margin-left: -100%;
+        transition-duration: 1s;
+        
+        }
+    .nav_text{
+        text-decoration: none;
+        text-decoration: none;
+        background-color: #140a25 !important;
+        color: white;
+        width: 100% !important;
+        text-align: center !important;
+        font-size: 22pt;
+    }
+    .nav_separator{
+        display: none;
+    }
+    .btn_menu_header{
+        width: 11%;
+        transform: translate(6px, -1px);
+        margin: 5px;
+        padding: 3px;
+        margin-left: -6px;
+        
+        
+    }
+    .logo_header{
+        display: block;
+    }
+    .logo_header_mobile{
+        height: auto;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+        display: flex;
+        width: 80%;
+        transform: translate(-9px, 11px);
+    }
+    .label_btn_menu{
+        display: block;
+        border-bottom: 2px solid #4796bb;
+    }
+    #btn_menu:checked ~ .nav{
+        margin-left:0%;
+        opacity: 100%;
+        
+        
+    }
+    #btn_menu{
+        display: none;
+    }
+    .menu_mobile{
+        background-color: #140A26;
+    }
+
+    .atencion{
+        font-size: 9pt;
+    }
+    .txtingr{
+        font-size: 9pt;
+        padding: 0px;
+    }
+    .advertencia{
+        font-size: 9pt;
+    }
+    .subadvertencia{
+        text-align: justify;
+        font-size: 9pt;
+    }
+    .btnsalir{
+        width: 28%;
+        border-radius: 7px;
+    }
+    .ingresarcodigo{
+       text-decoration: none;
+    }
+    .primertexto{
+     text-decoration: none;   
+    }
+   
+   
+
+    /* contactanos */
+    
+    .contactenos{
+        width: 90%;
+    }
+
+    .formcontact{
+        display: flex;
+        background-color: #140A26;
+        padding: 22px;
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 0px;
+    }
+
+    .logo{
+        display: none;
+    }
+    .logo_mobile{
+        height: auto;
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .formulario_contactos{
+        width: 100% !important;
+        margin-top: 18px !important; 
+    }
+    /*Terminos mobile*/
+    
+    .logo_terminos_pc{
+       display: none;
+    }
+    .logo_terminos_mobile{
+        width: 66%;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .container_terminos{
+          width: 90% !important;
+          height: 50% !important;
+          margin-top: 22px;
+      }
+      .corazon_gif{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 38%;
+      }
+    
+   }
